@@ -162,7 +162,7 @@ body.bg-black .header-video-container::after {
     flex-direction: column;
     gap: 5px;
 }
-.feature-card-detail h4 {
+.feature-card-detail h5 {
     font-weight: 100;
     font-size: 1.25rem;
     color: white;
