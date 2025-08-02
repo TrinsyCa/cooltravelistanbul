@@ -90,7 +90,6 @@ body.bg-black .header-video-container::after {
 }
 .header-content h1 {
     font-size: 3.5rem;
-    font-weight: 100;
     margin-bottom: 0.5rem;
     white-space: nowrap;
 }

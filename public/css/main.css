@@ -10,6 +10,7 @@
     --hr-secondary: rgb(0,0,0,0.5);
     --detailGroupBoxBg: #b6b6b6;
     --detailGroupBoxBgHover: #bdbdbd;
+    --font-family: 'Quicksand', sans-serif;
 }
 body.bg-black {
     --bg-clr: #111;
@@ -19,11 +20,18 @@ body.bg-black {
     --detailGroupBoxBg: #030303;
     --detailGroupBoxBgHover: #060606;
 }
+@font-face {
+    font-family: 'Quicksand';
+    src: url('/fonts/quicksand/Quicksand-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     color: var(--text-clr);
 }
 html {
@@ -200,7 +208,7 @@ a:hover,
     100% {
         opacity: 1;
         transform: translateY(0);
-    }   
+    }
 }
 nav {
     width: 100%;
