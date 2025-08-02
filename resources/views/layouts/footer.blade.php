@@ -37,8 +37,8 @@
             </div>
         </div>
         <div class="footer-policy">
-            <a class="footer-link" onclick="window.location.href='/policies'">Terms & Policies</a>
-            <a class="footer-link" onclick="window.location.href='/policies'">Privacy Policy</a>
+            <a class="footer-link" href="{{ url('/policies') }}">Terms & Policies</a>
+            <a class="footer-link" href="{{ url('/policies') }}">Privacy Policy</a>
         </div>
         <div class="footer-signature">
             <p class="signature">
