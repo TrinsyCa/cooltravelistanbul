@@ -1,13 +1,13 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class="nav-logo">
-            <img src="{{ asset('assets/img/logo/logo.webp') }}">
+        <a href="/" class="nav-logo" aria-label="Nav Logo URL">
+            <img src="{{ asset('assets/img/logo/logo.webp') }}" alt="{{ config('app.name') }} Logo">
         </a>
-        <button class="menuBars openMenu" onclick="menuBars('open');">
+        <button class="menuBars openMenu" onclick="menuBars('open');" aria-label="Open Mobile Menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="448" height="512" viewBox="0 0 448 512"><rect width="448" height="512" fill="none"></rect><path fill="#000" d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32m0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32m448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32"></path></svg>
         </button>
         <div class="menu-side">
-            <button class="menuBars closeMenu" onclick="menuBars('close');">
+            <button class="menuBars closeMenu" onclick="menuBars('close');" aria-label="Close Mobile Menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><rect width="1024" height="1024" fill="none"/><path fill="#333" d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504L738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512L828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496L285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512L195.2 285.696a64 64 0 0 1 0-90.496"/></svg>
             </button>
             <space></space>

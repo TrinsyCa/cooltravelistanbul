@@ -150,7 +150,7 @@
         </div>
         <div class="safety-img">
             <div class="safety-img-container blur-load" style="background-image: url(/assets/img/nuru-photos/low/calsan.spay.png);">
-                <img src="/assets/img/cars/vito/01-01.webp" alt="VIP Vito Service">
+                <img src="/assets/img/cars/vito/01-01.webp" alt="Istanbul Private Car Hire" loading="lazy">
                 <article>Private VIP Maybach Mercedes Vito</article>
             </div>
         </div>
@@ -174,7 +174,7 @@
                 </div>
             </div>
             <div class="focus-img blur-load" style="background-image: url(/assets/img/cars/vito/low/00-01.webp);">
-                <img src="/assets/img/beautiful-woman-walks-at-istiklal-street-istambul-2025-01-16-10-59-23-utc.jpg">
+                <img src="/assets/img/beautiful-woman-walks-at-istiklal-street-istambul-2025-01-16-10-59-23-utc.jpg" alt="Istanbul City Tour" loading="lazy">
             </div>
         </div>
     </div>
@@ -189,11 +189,11 @@
         <div class="focus-container focus-anim focus-img-container">
             <div class="focus-img blur-load" style="background-image: url(/assets/img/cars/vito/low/00-01.webp);">
                 <article><h2>Hagia Sophia</h2></article>
-                <img src="/assets/img/gallery/hagia-sophia-cathedral-church-istanbul-2024-10-21-02-59-14-utc.jpg">
+                <img src="/assets/img/gallery/hagia-sophia-cathedral-church-istanbul-2024-10-21-02-59-14-utc.jpg" alt="Hagia Sophia Tour" loading="lazy">
             </div>
             <div class="focus-img blur-load" style="background-image: url(/assets/img/cars/vito/low/00-01.webp);">
                 <article><h2>Ortaköy</h2></article>
-                <img src="/assets/img/gallery/exterior-of-ortakoy-mosque-and-bhosphorus-bridge-a-2024-06-12-01-16-04-utc.jpg">
+                <img src="/assets/img/gallery/exterior-of-ortakoy-mosque-and-bhosphorus-bridge-a-2024-06-12-01-16-04-utc.jpg" alt="Ortaköy Tour" loading="lazy">
             </div>
         </div>
         <br>

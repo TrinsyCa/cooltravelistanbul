@@ -24,7 +24,7 @@
         </div>
         <div class="safety-img">
             <div class="safety-img-container blur-load" style="background-image: url(/assets/img/nuru-photos/low/spayai.iot.png);">
-                <img src="/assets/img/nuru-photos/spayai.iot.png" loading="lazy">
+                <img src="/assets/img/nuru-photos/spayai.iot.png" alt="About {{ config('app.name') }}" loading="lazy">
             </div>
         </div>
     </section>
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="focus-img blur-load " style="background-image: url(/assets/img/gallery/istanbul-turkey-the-bosphorus-bridge-and-the-ort-2025-01-08-02-31-14-utc.jpg);">
-                <img src="/assets/img/gallery/istanbul-turkey-the-bosphorus-bridge-and-the-ort-2025-01-08-02-31-14-utc.jpg" loading="lazy">
+                <img src="/assets/img/gallery/istanbul-turkey-the-bosphorus-bridge-and-the-ort-2025-01-08-02-31-14-utc.jpg" alt="Bosphorus Daily Tour" loading="lazy">
             </div>
         </div>
     </div>

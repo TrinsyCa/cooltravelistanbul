@@ -3,8 +3,8 @@
         <div class="footer-top">
             <ul class="footer-menu-list">
                 <li class="footer-menu">
-                    <a href="/" class="footer-logo">
-                        <img src="{{ asset('/assets/img/logo/logo.webp') }}">
+                    <a href="/" class="footer-logo" aria-label="Footer Logo URL">
+                        <img src="{{ asset('/assets/img/logo/logo.webp') }}" alt="{{ config('app.name') }} Logo">
                     </a>
                 </li>
                 <li class="footer-menu">

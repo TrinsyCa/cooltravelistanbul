@@ -20,7 +20,7 @@
         </div>
         <div class="safety-img">
             <div class="safety-img-container blur-load" style="background-image: url(/assets/img/cars/vito/low/01-02.webp);">
-                <img src="/assets/img/cars/vito/01-02.webp">
+                <img src="/assets/img/cars/vito/01-02.webp" alt="Private Vito" loading="lazy">
             </div>
         </div>
     </section>
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="focus-img blur-load" style="background-image: url(/assets/img/cars/vito/low/00-01.webp);">
-                <img src="/assets/img/cars/vito/00-01.webp">
+                <img src="/assets/img/cars/vito/00-01.webp" alt="Private Vito" loading="lazy">
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
     <div class="focus section-container">
         <div class="focus-container focus-anim-r">
             <div class="focus-img blur-load" style="background-image: url(/assets/img/nuru-photos/low/soyut.safety2.png);">
-                <img src="/assets/img/portrait-of-mature-businessman-wearing-telephone-h-2024-10-20-13-45-47-utc.jpg">
+                <img src="/assets/img/portrait-of-mature-businessman-wearing-telephone-h-2024-10-20-13-45-47-utc.jpg" alt="Call Us" loading="lazy">
             </div>
             <div class="focus-detail">
                 <h1 class="subTitle">

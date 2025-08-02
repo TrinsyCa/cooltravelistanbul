@@ -56,8 +56,6 @@
     padding-left: 50px;
 }
 .faq-text li {
-    display: flex;
-    align-items: center;
     padding: .5rem;
 }
 .faq-text li::before {

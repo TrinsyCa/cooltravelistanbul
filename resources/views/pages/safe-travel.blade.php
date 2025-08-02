@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="focus-img blur-load " style="background-image: url(/assets/img/nuru-photos/low/opus.spay.png);">
-                <img src="/assets/img/safe airport transfer.jpg" loading="lazy">
+                <img src="/assets/img/safe airport transfer.jpg" alt="Safe Airport Transfer" loading="lazy">
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
     <div class="focus section-container">
         <div class="focus-container focus-anim-r">
             <div class="focus-img blur-load " style="background-image: url('/assets/img/private istanbul tour.jpg');">
-                <img src="/assets/img/private istanbul tour.jpg" loading="lazy">
+                <img src="/assets/img/private istanbul tour.jpg" alt="Private Istanbul Tour" loading="lazy">
             </div>
             <div class="focus-detail">
                 <h1 class="bigTitle">
