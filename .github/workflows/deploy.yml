@@ -32,28 +32,25 @@ jobs:
       - name: Build frontend assets
         run: npm run build
 
-      - name: Deploy to Hostinger
+      - name: Deploy to Hostinger via SSH
         env:
           DEPLOY_HOST: ${{ secrets.HOSTINGER_HOST }}
           DEPLOY_USER: ${{ secrets.HOSTINGER_USER }}
           DEPLOY_PASSWORD: ${{ secrets.HOSTINGER_PASSWORD }}
           DEPLOY_PATH: ${{ secrets.HOSTINGER_PATH }}
         run: |
-          sshpass -p $DEPLOY_PASSWORD ssh -o StrictHostKeyChecking=no -p 65002 $DEPLOY_USER@$DEPLOY_HOST << 'EOF'
-            whoami
-            # Install Node.js if not installed
-            if ! command -v node >/dev/null 2>&1; then
-              mkdir -p ~/nodejs
-              cd ~/nodejs
-              wget https://nodejs.org/dist/v20.18.0/node-v20.18.0-linux-x64.tar.xz
-              tar -xJf node-v20.18.0-linux-x64.tar.xz
-              mv node-v20.18.0-linux-x64 ~/node
-              echo 'export PATH=$HOME/node/bin:$PATH' >> ~/.bashrc
-              export PATH=$HOME/node/bin:$PATH
-            fi
-            cd ~$DEPLOY_PATH
-            pwd
-            ls -la
+          sudo apt-get update
+          sudo apt-get install sshpass -y
+
+          sshpass -p "$DEPLOY_PASSWORD" ssh -o StrictHostKeyChecking=no -p 65002 "$DEPLOY_USER@$DEPLOY_HOST" << EOF
+            echo "Logged in as: \$(whoami)"
+            cd "$DEPLOY_PATH"
+
+            echo "Pulling latest code from GitHub..."
             git pull origin main
-            php composer.phar install --no-interaction --optimize-autoloader --no-dev
+
+            echo "Installing composer dependencies..."
+            composer install --no-interaction --optimize-autoloader --no-dev
+
+            echo "Deployment completed!"
           EOF
