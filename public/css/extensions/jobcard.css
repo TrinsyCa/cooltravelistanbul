@@ -53,7 +53,8 @@
 .jobCard .jobBox .jobBox-details h3 {
     margin: 0.6rem 0;
 }
-.jobCard .jobBox .jobBox-details button {
+.jobCard .jobBox .jobBox-details button,
+.jobCard .jobBox .jobBox-details a {
     border: 0;
     outline: 0;
     background-color: white;
@@ -66,28 +67,36 @@
     align-items: center;
     gap: 5px;
 }
-.jobCard .jobBox .jobBox-details button span {
+.jobCard .jobBox .jobBox-details button span,
+.jobCard .jobBox .jobBox-details a span {
     width: 100%;
     font-weight: bold;
     font-size: 1rem;
     background: linear-gradient(140deg, #5962b3, #ae97ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
-.jobCard .jobBox .jobBox-details button svg {
+.jobCard .jobBox .jobBox-details button svg,
+.jobCard .jobBox .jobBox-details a svg {
     width: 40px;
     height: 40px;
     scale: 0.9;
     transition: 0.3s scale;
 }
 .jobCard .jobBox .jobBox-details button:hover svg,
-.jobCard .jobBox .jobBox-details button:active svg {
+.jobCard .jobBox .jobBox-details button:active svg,
+.jobCard .jobBox .jobBox-details a:hover svg,
+.jobCard .jobBox .jobBox-details a:active svg {
     scale: 1;
 }
 .jobCard .jobBox .jobBox-details button:hover,
-.jobCard .jobBox .jobBox-details button:active {
+.jobCard .jobBox .jobBox-details button:active,
+.jobCard .jobBox .jobBox-details a:hover,
+.jobCard .jobBox .jobBox-details a:active {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-.jobCard .jobBox .jobBox-details button:active {
+.jobCard .jobBox .jobBox-details button:active,
+.jobCard .jobBox .jobBox-details a:active {
     scale: 0.95;
 }

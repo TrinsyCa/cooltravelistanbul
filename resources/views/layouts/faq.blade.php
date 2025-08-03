@@ -11,7 +11,7 @@
                 </button>
                 <div class="faq-text">
                     <div class="faq-paragraph">
-                        <p>You can book your tour or transfer through our website, <button class="link-btn" onclick="wpLink();">WhatsApp</button>, or by <button class="link-btn" onclick="wpLink();">calling us</button> directly. We recommend booking in advance to secure your preferred time and date.</p>
+                        <p>You can book your tour or transfer through our website, <a class="link-btn" href="https://api.whatsapp.com/send?phone={{ str_replace([' ', '(', ')','+'], '', config('app.phone')) }}" target="_blank">WhatsApp</a>, or by <a class="link-btn" href="https://api.whatsapp.com/send?phone={{ str_replace([' ', '(', ')','+'], '', config('app.phone')) }}" target="_blank">calling us</a> directly. We recommend booking in advance to secure your preferred time and date.</p>
                     </div>
                 </div>
             </div>

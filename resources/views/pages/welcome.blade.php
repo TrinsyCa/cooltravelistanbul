@@ -19,8 +19,8 @@
         <div class="header-video">
             <div class="header-video-anim"></div>
             <div class="header-video-container">
-                <video autoplay muted loop id="header-bg-video">
-                    <source src="/assets/img/header-video/video-1.mp4">
+                <video poster="{{ asset('assets/img/header-video/cover.webp') }}?v={{ filemtime(public_path('assets/img/header-video/cover.webp')) }}" autoplay muted loop id="header-bg-video">
+                    <source src="{{ asset('/assets/img/header-video/istanbul-city-tours-1.webm') }}">
                 </video>
             </div>
         </div>
@@ -46,7 +46,7 @@
                 <div class="jobBox-details">
                     <h3>Online Payment</h3>
                     <p>You can instantly reserve your tour with our Stripe payment integration.</p>
-                    <button onclick="wpLink();">
+                    <a href="https://api.whatsapp.com/send?phone={{ str_replace([' ', '(', ')','+'], '', config('app.phone')) }}" target="_blank">
                         <span>Reserve Now</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <defs>
@@ -57,7 +57,7 @@
                             </defs>
                             <path fill="url(#gradient-icon)" d="m12 2l.324.005a10 10 0 1 1-.648 0zm.613 5.21a1 1 0 0 0-1.32 1.497L13.584 11H8l-.117.007A1 1 0 0 0 8 13h5.584l-2.291 2.293l-.083.094a1 1 0 0 0 1.497 1.32l4-4l.073-.082l.064-.089l.062-.113l.044-.11l.03-.112l.017-.126L17 12l-.007-.118l-.029-.148l-.035-.105l-.054-.113l-.071-.111a1 1 0 0 0-.097-.112l-4-4z"/>
                         </svg>
-                    </button>
+                    </a>
                 </div>
             </div>
             </div>

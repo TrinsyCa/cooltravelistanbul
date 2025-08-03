@@ -49,6 +49,7 @@ body {
     transition: 0.3s opacity;
     background-color: var(--bg-clr);
     color: white;
+    scroll-behavior: smooth;
 }
 body.bg-black {
     background-color: var(--bg-clr);
