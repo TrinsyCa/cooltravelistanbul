@@ -1,11 +1,11 @@
 @extends('app')
 @section('article', 'Home')
 @section('styles')
-    <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/extensions/faq.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="css/extensions/focus.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="css/extensions/safety.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="css/extensions/jobcard.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('css/homepage.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('css/extensions/faq.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('css/extensions/focus.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('css/extensions/safety.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('css/extensions/jobcard.css') }}" media="print" onload="this.media='all'">
 @endsection
 @section('content')
     <header>
