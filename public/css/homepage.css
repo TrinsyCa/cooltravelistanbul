@@ -217,10 +217,9 @@ body.bg-black .header-video-container::after {
     position: relative;
     background-color: var(--magic-clr);
     color: white;
-    padding: 10px;
+    padding: 22px 20px;
     border-radius: 15px;
     text-align: center;
-    font-size: 1.1rem;
     cursor: pointer;
     transition: 0.3s background-color, 0.3s scale;
     border: 0;
@@ -243,11 +242,12 @@ body.bg-black .header-video-container::after {
 }
 .feature-card-bookBtn span {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     transition: 0.25s font-size;
+    font-weight: bold;
 }
 .feature-card-bookBtn:hover span {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .feature-card-bookBtn:active {
     scale: 0.95;

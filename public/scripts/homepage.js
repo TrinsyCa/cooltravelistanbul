@@ -10,9 +10,9 @@ featuresCol.forEach((fetureCol) => {
             featuresStart(fetureCol, product, list);
             product.addEventListener("mouseenter", () => {
                     if(innerWidth > 768) {
-                        list.style.height = list.scrollHeight + 5 + "px";
+                        list.style.height = list.scrollHeight + 15 + "px";
                         list.style.paddingBottom = "15px";
-                        fetureCol.style.height = product.scrollHeight + list.scrollHeight + 5 + "px";
+                        fetureCol.style.height = product.scrollHeight + list.scrollHeight + 15 + "px";
                     }
             });
             product.addEventListener("mouseleave", () => {
