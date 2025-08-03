@@ -19,7 +19,7 @@
         <div class="header-video">
             <div class="header-video-anim"></div>
             <div class="header-video-container">
-                <video fetchpriority="high" poster="{{ asset('assets/img/header-video/cover.webp') }}?v={{ filemtime(public_path('assets/img/header-video/cover.webp')) }}" autoplay muted loop id="header-bg-video">
+                <video poster="{{ asset('assets/img/header-video/cover.webp') }}?v={{ filemtime(public_path('assets/img/header-video/cover.webp')) }}" autoplay muted loop id="header-bg-video">
                     <source src="{{ asset('/assets/img/header-video/istanbul-city-tours-1.webm') }}?v={{ filemtime(public_path('/assets/img/header-video/istanbul-city-tours-1.webm')) }}">
                 </video>
             </div>
