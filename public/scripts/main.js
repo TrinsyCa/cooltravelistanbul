@@ -67,12 +67,12 @@ function callLink(number) {
   /* let lastPosition = window.scrollY;
   let targetPosition = window.scrollY;
   let isScrolling = false;
-      
-  
+
+
   function smoothScroll() {
       if (isScrolling) {
           const newPosition = lastPosition + (targetPosition - lastPosition) * 0.1; // Animasyon hızını ayarla
-          
+
           // Sayfa sınırlarını kontrol et
           if (newPosition <= 0 || newPosition + window.innerHeight >= document.body.offsetHeight) {
               // Sayfanın en üstüne veya en altına ulaşıldıysa, animasyonu durdur ve hedefe zıpla
@@ -80,7 +80,7 @@ function callLink(number) {
               window.scrollTo(0, targetPosition);
               return;
           }
-  
+
           if (Math.abs(targetPosition - lastPosition) < 1) {
               lastPosition = targetPosition; // Hedefe çok yakınsak, tam konuma git
               isScrolling = false; // Animasyonu durdur
@@ -91,10 +91,10 @@ function callLink(number) {
           }
       }
   }
-  
+
   window.addEventListener('wheel', function(event) {
       event.preventDefault();
-  
+
       const delta = event.deltaY;
       const multiplier = 1.4; // Kaydırma miktarı
       // Hedef pozisyonu güncelle, ancak sayfa sınırlarını aşmamak için kontrol et
@@ -102,19 +102,19 @@ function callLink(number) {
       if (!(potentialTargetPosition <= -500 || potentialTargetPosition + window.innerHeight >= document.body.offsetHeight + 500)) {
           targetPosition = potentialTargetPosition;
       }
-  
+
       if (!isScrolling) {
           isScrolling = true;
           smoothScroll(); // Animasyonu başlat veya devam ettir
       }
   }, { passive: false }); */
-  
-  
+
+
   const body = document.querySelector("body");
-  
+
   const menuBtn = document.querySelectorAll(".main-menu-btn");
   const subMenuBtn = document.querySelectorAll(".menu-box");
-  
+
     menuBtn.forEach(function(menu) {
         menu.addEventListener("click", function() {
             const isActive = menu.classList.contains("active");
@@ -167,10 +167,10 @@ function callLink(number) {
         }
     }
     window.addEventListener("resize", responsiveMenu);
-  
+
     const nav = document.querySelector("nav");
     const footer = document.querySelector("footer");
-    
+
     window.addEventListener("scroll", function() {
     var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
     menuBtn.forEach(function(menu) {
@@ -191,7 +191,7 @@ function callLink(number) {
         }
     }
 });
-  
+
 
   const blurDivs = document.querySelectorAll(".blur-load");
 
@@ -225,28 +225,6 @@ fixedBtn.forEach((btn) => {
     });
 });
 
-// Navbar Scroll
-
-window.addEventListener("DOMContentLoaded", navbarBg);
-window.addEventListener("scroll", navbarBg);
-
-function navbarBg() {
-    let navbar = document.querySelector(".navbar");
-
-    if(!document.querySelector(".relative .navbar")) {  
-        if (window.scrollY > 100) {
-            navbar.classList.add("scrolled");
-        } else {
-            navbar.classList.remove("scrolled");
-        }
-    }
-    else {
-        navbar.classList.add("scrolled");
-    }
-}
-
-// NOTIFICATION
-
 //NOTIFICATION TEXT
 
 const try_nuru = "Nuru HealthCare Demo version is in the updating phase, thank you for your patience.";
@@ -261,7 +239,7 @@ const team = "These areas are still in the updating phase and the site is under 
 
 const closeNotification = document.getElementById("closeNotification");
   const notification = document.getElementById("notification");
-  
+
   closeNotification.addEventListener("click", function() {
       clearTimeout(notificationTimeout);
       clearTimeout(notificationTimeoutR);
@@ -309,7 +287,7 @@ function contactFocus() {
 $(document).ready(function () {
     $("#emailForm").submit(function (event) {
         event.preventDefault(); // Sayfanın yenilenmesini engelle
-        
+
         // <meta name="base_path"> içeriğini al
         var basePath = $("meta[name='base_path']").attr("content") || "";
 

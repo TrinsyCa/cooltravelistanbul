@@ -313,9 +313,6 @@ nav.relative .menu-box {
     transition: 0.5s scale, 0.5s opacity;
     transition-delay: 0.15s;
 }
-.nav-container.scrolled .menuBars svg path {
-    fill: var(--dark);
-}
 .main-menu-btn {
     background-color: transparent;
     color: white;

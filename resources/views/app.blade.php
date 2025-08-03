@@ -11,6 +11,7 @@
     @include('layouts.navbar')
     @yield('content')
     @include('layouts.footer')
+    <script src="{{ asset('/scripts/extensions/jquery-3.7.1.slim.min.js') }}?v={{ filemtime(public_path('/scripts/extensions/jquery-3.7.1.slim.min.js')) }}"></script>
     <script src="{{ asset('/scripts/extensions/swiper-bundle.min.js') }}?v={{ filemtime(public_path('/scripts/extensions/swiper-bundle.min.js')) }}"></script>
     <script src="{{ asset('/scripts/main.js') }}?v={{ filemtime(public_path('/scripts/main.js')) }}"></script>
     @yield('scripts')
