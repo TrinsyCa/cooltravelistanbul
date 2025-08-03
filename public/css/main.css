@@ -43,8 +43,6 @@ body {
     width: 100%;
     min-height: 100svh;
     overflow-x: hidden;
-    opacity: 0;
-    animation: opacityAnim 1s forwards ease-in-out;
     animation-delay: 0.2s;
     transition: 0.3s opacity;
     background-color: var(--bg-clr);
@@ -220,8 +218,7 @@ nav {
     left: 0;
     transition: 0.2s background-color;
     user-select: none;
-    animation: navAnim 0.35s forwards ease-in-out;
-    padding-top: 20px;
+    padding-top: 12px;
     padding-bottom: 12px;
     display: flex;
     justify-content: center;
@@ -246,14 +243,6 @@ nav.relative {
 }
 nav.relative .menu-box {
     background-color: var(--bg-clr);
-}
-@keyframes navAnim {
-    0% {
-        padding-top: 20px;
-    }
-    100% {
-        padding-top: 12px;
-    }
 }
 .nav-container {
     display: flex;
