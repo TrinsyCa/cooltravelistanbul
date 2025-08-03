@@ -39,8 +39,7 @@ nav.active {
     background-color: black;
     z-index: 30;
     opacity: 1;
-    animation: headerAnim 1s forwards ease-in-out;
-    animation-delay: 0.2s;
+    animation: headerAnim 0.35s forwards ease-in-out;
 }
 @keyframes headerAnim {
     0% {
@@ -74,8 +73,7 @@ body.bg-black .header-video-container::after {
     bottom: -20px;
     left: 50%;
     z-index: 2;
-    animation: headerTextAnim 1s forwards ease-in-out;
-    animation-delay: 0.4s;
+    animation: headerTextAnim 0.35s forwards ease-in-out;
     transform: translateX(-50%);
 }
 @keyframes headerTextAnim {

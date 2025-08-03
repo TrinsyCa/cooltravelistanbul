@@ -220,7 +220,7 @@ nav {
     left: 0;
     transition: 0.2s background-color;
     user-select: none;
-    animation: navAnim 1s forwards ease-in-out;
+    animation: navAnim 0.35s forwards ease-in-out;
     padding-top: 20px;
     padding-bottom: 12px;
     display: flex;
