@@ -44,7 +44,7 @@
                     </svg>
                 </div>
                 <div class="jobBox-details">
-                    <h3>Online Payment</h3>
+                    <b>Online Payment</b>
                     <p>You can instantly reserve your tour with our Stripe payment integration.</p>
                     <a href="https://api.whatsapp.com/send?phone={{ str_replace([' ', '(', ')','+'], '', config('app.phone')) }}" target="_blank">
                         <span>Reserve Now</span>
@@ -75,7 +75,7 @@
                     </svg>
                 </div>
                 <div class="jobBox-details">
-                    <h3>Professional Drivers</h3>
+                    <b>Professional Drivers</b>
                     <p>Our drivers are experienced, courteous, and dedicated to ensuring your safety and comfort throughout your journey.</p>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                     </svg>
                 </div>
                 <div class="jobBox-details">
-                    <h3>Expertly Curated Tours</h3>
+                    <b>Expertly Curated Tours</b>
                     <p>Our tours are designed to showcase the best destinations, balancing sightseeing, adventure, and local experiences.</p>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                     </svg>
                 </div>
                 <div class="jobBox-details">
-                    <h3>Safety & Reliability</h3>
+                    <b>Safety & Reliability</b>
                     <p>Your safety comes first strict standards, well maintained vehicles, worry free travel.</p>
                     <button onclick="window.location.href='/services/'">
                         <span>Safe Travel</span>

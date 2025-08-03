@@ -50,7 +50,7 @@
     flex-direction: column;
     gap: 10px;
 }
-.jobCard .jobBox .jobBox-details h3 {
+.jobCard .jobBox .jobBox-details b {
     margin: 0.6rem 0;
 }
 .jobCard .jobBox .jobBox-details button,
