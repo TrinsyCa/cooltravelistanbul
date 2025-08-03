@@ -10,7 +10,7 @@
                         <span class="discount">Save up to %10</span>
                     </div>
                     <div class="feature-card-detail">
-                        <h5>Romantic Istanbul Daily Tour</h5>
+                        <b>Romantic Istanbul Daily Tour</b>
                     </div>
                     <div class="feature-card-img">
                         <img src="https://cooltravelistanbul.com/wp-content/gallery/romantic-istanbul-daily-tour/romantic-istanbul-daily-tour-2025.webp" alt="Romantic Istanbul Daily Tour" loading="lazy">
@@ -35,7 +35,7 @@
                         <span class="discount">Save up to %10</span>
                     </div>
                     <div class="feature-card-detail">
-                        <h5>Historical Istanbul Daily Tour</h5>
+                        <b>Historical Istanbul Daily Tour</b>
                     </div>
                     <div class="feature-card-img">
                         <img src="https://cooltravelistanbul.com/wp-content/gallery/historical-istanbul-daily-tour-2025/historical-istanbul-daily-tour-2025.webp" alt="Historical Istanbul Daily Tour" loading="lazy">
@@ -60,7 +60,7 @@
                         <span class="discount">Save up to %10</span>
                     </div>
                     <div class="feature-card-detail">
-                        <h5>Bosphorus Istanbul Daily Tour</h5>
+                        <b>Bosphorus Istanbul Daily Tour</b>
                     </div>
                     <div class="feature-card-img">
                         <img src="https://cooltravelistanbul.com/wp-content/gallery/bosphorus-istanbul-daily-tour/bosphorus-istanbul-daily-tour-2025.webp" alt="Bosphorus Daily Tour" loading="lazy">
@@ -85,7 +85,7 @@
                         <span class="discount">Save up to %10</span>
                     </div>
                     <div class="feature-card-detail">
-                        <h5>Modern Istanbul Daily Tour</h5>
+                        <b>Modern Istanbul Daily Tour</b>
                     </div>
                     <div class="feature-card-img">
                         <img src="https://cooltravelistanbul.com/wp-content/gallery/modern-istanbul-daily-tour/modern-istanbul-daily-tour-2025.webp" alt="Modern Istanbul Daily Tour" loading="lazy">
@@ -112,7 +112,7 @@
                         <span class="discount">Save up to %10</span>
                     </div>
                     <div class="feature-card-detail">
-                        <h5>Istanbul Daily Art Tour</h5>
+                        <b>Istanbul Daily Art Tour</b>
                     </div>
                     <div class="feature-card-img">
                         <img src="https://cooltravelistanbul.com/wp-content/gallery/istanbul-daily-art-tour/Istanbul-Daily-Art-Tour-2025.webp" alt="Istanbul Daily Art Tour" loading="lazy">
@@ -137,7 +137,7 @@
                         <span class="discount">Save up to %10</span>
                     </div>
                     <div class="feature-card-detail">
-                        <h5>Istanbul Evening Bosphorus Tour</h5>
+                        <b>Istanbul Evening Bosphorus Tour</b>
                     </div>
                     <div class="feature-card-img">
                         <img src="https://cooltravelistanbul.com/wp-content/gallery/istanbul-evening-bosphorus-tour/istanbul-evening-bosphorus-tour-3.webp" alt="Evening Bosphorus Tour" loading="lazy">
@@ -162,7 +162,7 @@
                         <span class="discount">Save up to %10</span>
                     </div>
                     <div class="feature-card-detail">
-                        <h5>Underground Istanbul Daily Tour</h5>
+                        <b>Underground Istanbul Daily Tour</b>
                     </div>
                     <div class="feature-card-img">
                         <img src="https://cooltravelistanbul.com/wp-content/gallery/underground-istanbul-daily-tour/underground-istanbul-daily-tour.webp" alt="Underground Istanbul Daily Tour" loading="lazy">
@@ -187,7 +187,7 @@
                         <span class="discount">Save up to %10</span>
                     </div>
                     <div class="feature-card-detail">
-                        <h5>Mystical Istanbul Daily Tour</h5>
+                        <b>Mystical Istanbul Daily Tour</b>
                     </div>
                     <div class="feature-card-img">
                         <img src="https://cooltravelistanbul.com/wp-content/gallery/mystical-istanbul-daily-tour-2025/Mystical-Istanbul-Daily-Tour-2025.webp" alt="Mystical Istanbul Daily Tour" loading="lazy">
@@ -221,7 +221,7 @@
                     <span class="discount">Save up to %10</span>
                 </div>
                 <div class="feature-card-detail">
-                    <h5>Bursa Daily Tour</h5>
+                    <b>Bursa Daily Tour</b>
                 </div>
                 <div class="feature-card-img">
                     <img src="/assets/img/catalog/490x490/Bursa-Daily-Tour.webp" alt="Bursa Daily Tour" loading="lazy">
@@ -246,7 +246,7 @@
                     <span class="discount">Save up to %10</span>
                 </div>
                 <div class="feature-card-detail">
-                    <h5>Sapanca Daily Tour</h5>
+                    <b>Sapanca Daily Tour</b>
                 </div>
                 <div class="feature-card-img">
                     <img src="/assets/img/catalog/490x490/Sapanca-Daily-Tour.webp" alt="Sapanca Daily Tour" loading="lazy">

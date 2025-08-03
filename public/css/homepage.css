@@ -139,7 +139,7 @@ body.bg-black .header-video-container::after {
     background: linear-gradient(180deg, #2e3baf, #8d6dff);
     padding: 15px;
     border-radius: 18px;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgb(0,0,0,0.6);
 }
 .feature-card-header {
     display: flex;
@@ -161,9 +161,9 @@ body.bg-black .header-video-container::after {
     flex-direction: column;
     gap: 5px;
 }
-.feature-card-detail h5 {
+.feature-card-detail b {
     font-weight: 100;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     color: white;
 }
 .feature-card-img {
