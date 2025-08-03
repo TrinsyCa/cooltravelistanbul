@@ -2,10 +2,10 @@
 @section('article', 'Home')
 @section('styles')
     <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/extensions/faq.css" loading="lazy">
-    <link rel="stylesheet" href="css/extensions/focus.css" loading="lazy">
-    <link rel="stylesheet" href="css/extensions/safety.css" loading="lazy">
-    <link rel="stylesheet" href="css/extensions/jobcard.css" loading="lazy">
+    <link rel="stylesheet" href="css/extensions/faq.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/extensions/focus.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/extensions/safety.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/extensions/jobcard.css" media="print" onload="this.media='all'">
 @endsection
 @section('content')
     <header>
@@ -204,8 +204,8 @@
     @include('layouts.faq')
 @endsection
 @section('scripts')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" loading="lazy"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js loading="lazy""></script>
-    <script src="scripts/homepage.js" loading="lazy"></script>
-    <script src="scripts/faq.js" loading="lazy"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js" defer></script>
+    <script src="scripts/homepage.js" defer></script>
+    <script src="scripts/faq.js" defer></script>
 @endsection
