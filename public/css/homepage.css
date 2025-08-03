@@ -148,11 +148,11 @@ body.bg-black .header-video-container::after {
     margin-bottom: 10px;
 }
 .feature-card-header .discount {
-    background-color: #ff4d4d;
+    background-color: #962d2d;
     color: white;
     padding: 8px 10px;
     border-radius: 10px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     width: 100%;
     text-align: center;
 }
