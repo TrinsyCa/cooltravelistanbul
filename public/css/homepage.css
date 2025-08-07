@@ -61,8 +61,13 @@
 }
 .feature-card-detail b {
     font-weight: 100;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     color: white;
+}
+@media(max-width: 1610px) {
+    .feature-card-detail b {
+        font-size: 0.9rem;
+    }
 }
 .feature-card-img {
     width: 100%;
