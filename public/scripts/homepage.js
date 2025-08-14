@@ -96,17 +96,6 @@ function productMouseLeave() {
 
 window.addEventListener("resize", productMouseLeave);
 window.addEventListener("DOMContentLoaded", productMouseLeave);
-window.addEventListener("DOMContentLoaded", () => {
-    featuresCol.forEach((fetureCol) => {
-        const productContainer = fetureCol.querySelectorAll(".feature-card-container");
-        productContainer.forEach((product) => {
-            const productList = product.querySelectorAll(".feature-card-list");
-            productList.forEach((list) => {
-                featuresStart(fetureCol, product, list);
-            });
-        });
-    });
-});
 
 
 // Swiper Slider
