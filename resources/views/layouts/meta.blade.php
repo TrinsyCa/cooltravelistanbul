@@ -49,7 +49,3 @@
   gtag('config', 'G-LKB2L1K5RW');
 </script>
 {{-- Google Analytics --}}
-
-{{-- Cookies Banner with Cookiebot --}}
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="af87f4c4-6482-41b7-bfd2-3772caadf9c2" type="text/javascript" async></script>
-{{-- Cookies Banner with Cookiebot --}}
