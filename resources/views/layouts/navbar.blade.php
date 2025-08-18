@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class="nav-logo" aria-label="Nav Logo URL">
+        <a href="{{ url('/') }}" class="nav-logo" aria-label="Nav Logo URL">
             <img src="{{ asset('assets/img/logo/logo.webp') }}" alt="{{ config('app.name') }} Logo">
         </a>
         <button class="menuBars openMenu" onclick="menuBars('open');" aria-label="Open Mobile Menu">
@@ -38,7 +38,7 @@
                         <a href="{{ url('reviews') }}" class="menu-btn"><span>Reviews</span></a>
                         <a href="{{ url('about') }}" class="menu-btn"><span>About Us</span></a>
                         <a href="{{ url('safe-travel') }}" class="menu-btn"><span>Safe Travel</span></a>
-                        {{-- <a href="/products/" class="menu-btn"><span>Products</span></a> --}}
+                        {{-- <a href="{{ url('products') }}" class="menu-btn"><span>Products</span></a> --}}
                     </div>
                 </button>
                 <button class="main-menu-btn">

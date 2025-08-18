@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('css/extensions/focus.css') }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('css/extensions/safety.css') }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('css/extensions/jobcard.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('css/extensions/booking.css') }}?v{{ filemtime(public_path('css/extensions/booking.css')) }}" media="print" onload="this.media='all'">
 
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
@@ -29,8 +30,6 @@
             </div>
         </div>
     </header>
-{{--     <div class="space"></div>
-    @include('test.transfer') --}}
     <div class="space"></div>
     @include('layouts.product-list')
     <div class="space"></div>
@@ -124,7 +123,7 @@
                 <div class="jobBox-details">
                     <b>Safety & Reliability</b>
                     <p>Your safety comes first strict standards, well maintained vehicles, worry free travel.</p>
-                    <button onclick="window.location.href='/services/'">
+                    <a href="{{ url('services') }}">
                         <span>Safe Travel</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <defs>
@@ -135,7 +134,7 @@
                             </defs>
                             <path fill="url(#gradient-icon)" d="m12 2l.324.005a10 10 0 1 1-.648 0zm.613 5.21a1 1 0 0 0-1.32 1.497L13.584 11H8l-.117.007A1 1 0 0 0 8 13h5.584l-2.291 2.293l-.083.094a1 1 0 0 0 1.497 1.32l4-4l.073-.082l.064-.089l.062-.113l.044-.11l.03-.112l.017-.126L17 12l-.007-.118l-.029-.148l-.035-.105l-.054-.113l-.071-.111a1 1 0 0 0-.097-.112l-4-4z"/>
                         </svg>
-                    </button>
+                    </a>
                 </div>
             </div>
             </div>
@@ -151,7 +150,7 @@
             </div>
             <div class="side">
                 <p>Experience luxury and comfort with Cool Travel Istanbul's Private Vito Service! Our professional chauffeur driven VIP vehicles offer top-notch service for airport transfers, city tours, and private events. Enjoy a personalized journey designed just for you with an exclusive experience!</p>
-                <a href="services/">Learn about services</a>
+                <a href="{{ url('services') }}">Learn about services</a>
             </div>
         </div>
         <div class="safety-img">
@@ -204,7 +203,7 @@
         </div>
         <br>
         <div class="space">
-            <button class="main-btn" onclick="window.location.href='/gallery/'">Show Gallery</button>
+            <a class="main-btn" href="{{ url('gallery') }}">Show Gallery</a>
         </div>
     </div>
     @include('layouts.faq')
@@ -213,5 +212,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js" defer></script>
     <script src="scripts/homepage.js" defer></script>
+    <script src="scripts/booking.js" defer></script>
     <script src="scripts/faq.js" defer></script>
 @endsection

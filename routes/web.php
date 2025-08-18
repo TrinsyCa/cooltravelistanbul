@@ -27,6 +27,10 @@ Route::get('/gallery', function() {
     return view('pages.gallery');
 });
 
+Route::get('/reviews', function() {
+    return view('pages.reviews');
+});
+
 Route::get('/transfer', function () {
     return view('test.transfer');
 });

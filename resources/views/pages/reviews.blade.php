@@ -4,7 +4,7 @@
 @endsection
 @section('article', 'Reviews')
 @section('styles')
-<link rel="stylesheet" href="../css/reviews.css">
+<link rel="stylesheet" href="{{ asset('css/reviews.css') }}">
 @endsection
 @section('content')
     <?php
@@ -31,7 +31,7 @@
             <div class="header-content">
                 <h1>What Our <br> Customers Say</h1>
                 <p>Discover real customer reviews and see our service quality for yourself!</p>
-                <a href="../contact/" class="main-btn white">Contact Sales</a>
+                <a href="{{ url('contact') }}" class="main-btn white">Contact Sales</a>
             </div>
         </div>
     </header>
