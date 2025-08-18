@@ -4,11 +4,32 @@
     @include('layouts.meta')
     <link rel="stylesheet" href="{{ asset('/css/preload.min.css') }}?v={{ filemtime(public_path('/css/preload.min.css')) }}">
     <script>
+    let loadedAssets = 0;
+
+    function removePreload(force = false) {
+    if (force) {
+        document.body.classList.add('loaded');
+        window.scrollTo(0, 0);
+        return;
+    }
+    loadedAssets++;
+    if (loadedAssets >= 3) {
+        document.body.classList.add('loaded');
+        window.scrollTo(0, 0);
+    }
+    }
+
+    // Poster görseli (anasayfada sayaç için)
     const posterImage = new Image();
     posterImage.src = "{{ asset('assets/img/header-video/cover.webp') }}?v={{ filemtime(public_path('assets/img/header-video/cover.webp')) }}";
-    posterImage.onload = removePreload;
-    posterImage.onerror = removePreload;
-    let loadedAssets=0;function removePreload(){loadedAssets++;if(loadedAssets==3){document.querySelector('body').classList.add('loaded');window.scrollTo(0, 0);}}</script>
+    posterImage.onload  = () => removePreload();
+    posterImage.onerror = () => removePreload();
+
+    @if (!request()->routeIs('home'))
+    // Anasayfa değilsek preload'ı hemen kaldır
+    document.addEventListener('DOMContentLoaded', () => removePreload(true));
+    @endif
+    </script>
     <link rel="stylesheet" href="{{ asset('/css/main.css') }}?v={{ filemtime(public_path('/css/main.css')) }}" media="print" onload="this.media='all'; removePreload();">
     @if (request()->is('/'))<link rel="stylesheet" href="{{ asset('/css/header.css') }}?v={{ filemtime(public_path('/css/header.css')) }}" media="print" onload="this.media='all'; removePreload();">@endif
     <link rel="stylesheet" href="{{ asset('/css/main-responsive.css') }}?v={{ filemtime(public_path('/css/main-responsive.css')) }}" media="print" onload="this.media='all'">
