@@ -19,14 +19,12 @@
     }
     }
 
-    // Poster görseli (anasayfada sayaç için)
     const posterImage = new Image();
     posterImage.src = "{{ asset('assets/img/header-video/cover.webp') }}?v={{ filemtime(public_path('assets/img/header-video/cover.webp')) }}";
     posterImage.onload  = () => removePreload();
     posterImage.onerror = () => removePreload();
 
     @if (!request()->routeIs('home'))
-    // Anasayfa değilsek preload'ı hemen kaldır
     document.addEventListener('DOMContentLoaded', () => removePreload(true));
     @endif
     </script>
