@@ -29,7 +29,7 @@
                     </div>
                 </button>
                 <button class="main-menu-btn">
-                    <a href="/services/"><span>Services</span></a>
+                    <a href="{{ url('services') }}"><span>Services</span></a>
                 </button>
                 <button class="main-menu-btn">
                     <p><span>Company</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19 9l-7 6l-7-6"/></svg></p>
@@ -38,7 +38,7 @@
                         <a href="{{ url('reviews') }}" class="menu-btn"><span>Reviews</span></a>
                         <a href="{{ url('about') }}" class="menu-btn"><span>About Us</span></a>
                         <a href="{{ url('safe-travel') }}" class="menu-btn"><span>Safe Travel</span></a>
-                        <!-- <a href="/products/" class="menu-btn"><span>Products</span></a> -->
+                        {{-- <a href="/products/" class="menu-btn"><span>Products</span></a> --}}
                     </div>
                 </button>
                 <button class="main-menu-btn">
