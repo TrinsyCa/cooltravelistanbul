@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="{{ asset('css/extensions/focus.css') }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('css/extensions/safety.css') }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('css/extensions/jobcard.css') }}" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="{{ asset('css/extensions/booking.css') }}?v{{ filemtime(public_path('css/extensions/booking.css')) }}" media="print" onload="this.media='all'">
+    {{-- <link rel="stylesheet" href="{{ asset('css/extensions/booking.css') }}?v{{ filemtime(public_path('css/extensions/booking.css')) }}" media="print" onload="this.media='all'"> --}}
 
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
